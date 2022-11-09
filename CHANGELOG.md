@@ -47,7 +47,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - updated rugged in gemspec for ruby 3.0 support (@firefishy)
 
 ### Changed
-
+- 
 - Better manage of the enable mode in edgeswitch.rb (@agabellini)
 - Adds paging support to Enterasys B3/C3 (@piterpunk)
 - Allows "Username" as username prompt in Brocade ICX-series devices (@piterpunk) 
@@ -86,7 +86,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - edgecos: add support for FS S3900-48T6S-R (@cgsecurity)
 
 ### Fixed
-
+- fixed an issue for IOSXR devices which can't allocate pty because of problem with forwarding agent.
 - fixed on issue where Oxidized could not pull config from Opengear devices #1899 (@rikard0)
 - fixed an issue where Oxidized could not pull config from XOS-devices operating in stacked mode (@DarkCatapulter)
 - fixed an issue where Oxidized could not pull config from XOS-devices that have not saved their configuration (@DarkCatapulter)
